@@ -85,7 +85,7 @@ def all_supplies_in_holidays(holiday_hash)
        holiday_line = "#{holiday.capitalize}:"
        supplies.each do |supply|
         holiday_line << "#{supply}"
-        holiday_line
+        puts holiday_line
       end
     end
   end
